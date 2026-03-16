@@ -4,7 +4,7 @@
 ![Type](https://img.shields.io/badge/Type-Integration_Test-blue.svg)
 ![Target](https://img.shields.io/badge/Target-so__long-orange.svg)
 
-## 📖 Overview
+## Overview
 
 **So Long Tester** is a lightweight automation script designed to streamline the verification process of the *so_long* graphical project.
 
@@ -12,7 +12,7 @@ From a **Systems Engineering** perspective, relying on manual execution for test
 
 It serves as a sanity check for valid maps, ensuring the game engine initializes memory, renders the window, and shuts down correctly (Exit Code 0) without segmentation faults or leaks.
 
-## 🛠 Functional Logic
+## Functional Logic
 
 The script operates as a harness for the main executable:
 
@@ -24,7 +24,7 @@ The script operates as a harness for the main executable:
     * `!= 0`: Failure (Crash, segfault, or improper error handling).
 5.  **Aggregated Reporting:** Collects failed cases into an array and presents a final summary, eliminating the need to scroll through logs.
 
-## 📂 Project Structure
+## Project Structure
 
 To use this tester effectively, your directory should look like this:
 
@@ -37,7 +37,7 @@ To use this tester effectively, your directory should look like this:
     ├── map2.ber
     └── ...
 ```
-## 🚀 Usage
+## Usage
 
 ### 1. Setup
 
@@ -64,14 +64,14 @@ Run the tester from your project root:
 ```
 > **Note:** Since this tests valid maps on a graphical project, you will need to manually close the game window for each test to proceed to the next one. The script monitors the exit code generated upon closure.
 
-## 📊 Output Example
+## Output Example
 
 The script provides colored output for immediate visual feedback:
 
 
-## 👨‍💻 Author
+## Author
 
-**Sergi Juarez** *Systems Software Engineer | RISC-V & Kernel Enthusiast*
+**Sergi Juarez**
 
 - **GitHub:** [imserez](https://github.com/imserez)
 - **LinkedIn:** [sergijuarez](https://www.linkedin.com/in/sergijuarez)
